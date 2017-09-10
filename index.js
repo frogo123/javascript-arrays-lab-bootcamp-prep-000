@@ -25,8 +25,7 @@ return newArr;
 }
 
 function prependkitten(name){
-newArr = [name, ...kittens];
-return newArr;
+return[name, ...kittens];
 }
 
 function removeLastKitten(){
