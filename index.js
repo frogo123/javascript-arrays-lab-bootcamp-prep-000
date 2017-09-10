@@ -23,8 +23,8 @@ function appendKitten(name){
 var newArr = [...kittens, name];
 return newArr;
 }
-//
-// function prependkitten(name){
-//   var newArr = [name, ...kittens];
-//   return newArr;
-// }
+
+function prependkitten(name){
+  return = [name, ...kittens];
+
+}
