@@ -27,5 +27,9 @@ return newArr;
 function prependkitten(name){
 newArr = [name, ...kittens];
 return newArr;
+}
 
+function removeLastKitten(){
+  kittens.pop();
+  return kittens;
 }
