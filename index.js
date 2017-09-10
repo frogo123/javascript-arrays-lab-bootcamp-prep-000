@@ -25,6 +25,7 @@ return newArr;
 }
 
 function prependkitten(name){
-  return  [name, ...kittens];
+newArr = [name, ...kittens];
+return newArr;
 
 }
