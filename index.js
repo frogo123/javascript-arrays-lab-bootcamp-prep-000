@@ -30,6 +30,6 @@ return newArr;
 }
 
 function removeLastKitten(){
-  kittens.slice(0, -1);
-  return kittens;
+var newKittens = kittens.slice(0, -1);
+  return nweKittens;
 }
