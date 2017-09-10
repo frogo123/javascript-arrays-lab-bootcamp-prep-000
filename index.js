@@ -24,7 +24,7 @@ var newArr = [...kittens, name];
 return newArr;
 }
 
-function prependkitten(name){
+function prependKitten(name){
 return[name, ...kittens];
 }
 
