@@ -31,5 +31,5 @@ return newArr;
 
 function removeLastKitten(){
 var newKittens = kittens.slice(0, -1);
-  return nweKittens;
+  return newKittens;
 }
